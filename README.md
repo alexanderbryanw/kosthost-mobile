@@ -6,4 +6,4 @@ Part of team in this project:
 - Juan Richard Harmel
 - Marco Viriyatama
 - Monica Cornelia
-Detail of the application and works available in the kosthost_laporan.pdf document.
+\nDetail of the application and works available in the kosthost_laporan.pdf document.
