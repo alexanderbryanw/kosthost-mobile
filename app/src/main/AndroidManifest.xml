@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projectK1.kosthost">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KostHost"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".EditPenjaga"></activity>
+        <activity android:name=".TambahPenjaga" />
+        <activity android:name=".Penjaga" />
+        <activity android:name=".BookKost" />
+        <activity android:name=".LoginPemilik" />
+        <activity android:name=".EditProfilePencari" />
+        <activity android:name=".DetailbookedPemilik" />
+        <activity android:name=".EditProfilePemilik" />
+        <activity android:name=".faqPemilik" />
+        <activity android:name=".faqPencari" />
+        <activity android:name=".BookedPencari" />
+        <activity android:name=".BookedPemilik" />
+        <activity android:name=".ProfilePemilik" />
+        <activity android:name=".EditKost" />
+        <activity android:name=".ProfilePencari" />
+        <activity android:name=".SearchPencari" />
+        <activity android:name=".TambahKost" />
+        <activity android:name=".KostPemilik" />
+        <activity android:name=".DashboardPemilik" />
+        <activity android:name=".SignupPemilik" />
+        <activity android:name=".SignupPencari" />
+        <activity android:name=".LoginPencari" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".DashboardPencari" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
